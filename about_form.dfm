@@ -1,0 +1,80 @@
+object about_window: Tabout_window
+  Left = 509
+  Top = 288
+  BorderStyle = bsSingle
+  Caption = 'About the Program'
+  ClientHeight = 479
+  ClientWidth = 526
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object BitBtn1: TBitBtn
+    Left = 440
+    Top = 448
+    Width = 75
+    Height = 25
+    TabOrder = 0
+    Kind = bkClose
+  end
+  object Memo1: TMemo
+    Left = 8
+    Top = 8
+    Width = 505
+    Height = 425
+    BevelEdges = []
+    BevelInner = bvNone
+    BevelOuter = bvNone
+    BorderStyle = bsNone
+    Color = clBtnFace
+    Lines.Strings = (
+      
+        'This program has been designed in Delphi 7 by Gary Namestnik 201' +
+        '3.'
+      ''
+      'The author would like to acknowledge the following:'
+      ''
+      'Multithreading:'
+      '"Delphi threading by example" by Wim De Cleen'
+      'edn.embarcadero.com/article/22411'
+      '"Multithreading - The Delphi Way" by Martin Harvey '
+      
+        'tabasco.torreingenieria.unam.mx/gch/Threads%20en%20delphi/ToC.ht' +
+        'ml#Introduction'
+      ''
+      'Shell Execution:'
+      '"How to run command line from delphi" by Steve0'
+      'stackoverflow.com/questions/3378896'
+      ''
+      'Windows Handling:'
+      '"Find Windows by partial title"'
+      'www.delphigeist.com/2009.09/find-windows-by-partial-title.html'
+      '"Set focus on a window"'
+      'www.delphipages.com/forum/archive/index.php/t-201011.html'
+      '"System Tray"'
+      'www.swissdelphicenter.ch/torry/showcode.php?id=1164'
+      ''
+      'File Embedding:'
+      'delphi.about.com/od/objectpascalide/a/embed_resources.htm'
+      ''
+      'Networking:'
+      '"Convert Mapped Path to UNC"'
+      'delphi.about.com/cs/adptips2000/a/bltip0200_2.htm'
+      '"Simple TCP Sockets Chat" by Whack-A-Mole'
+      
+        'www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=174' +
+        '7&IngWId=7'
+      '"How to get IP Address"'
+      'www.delphigeist.com/2010/03/how-to-get-ip-address.html'
+      ''
+      '')
+    ReadOnly = True
+    TabOrder = 1
+  end
+end
