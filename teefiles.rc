@@ -1,0 +1,7 @@
+tee RCDATA "C:\Users\gary.namestnik\Documents\My Programs\ProgramQueuer\teefiles\tee.exe"
+dll1 RCDATA "C:\Users\gary.namestnik\Documents\My Programs\ProgramQueuer\teefiles\cygiconv-2.dll"
+dll2 RCDATA "C:\Users\gary.namestnik\Documents\My Programs\ProgramQueuer\teefiles\cygintl-8.dll"
+dll3 RCDATA "C:\Users\gary.namestnik\Documents\My Programs\ProgramQueuer\teefiles\cygwin1.dll"
+
+
+
